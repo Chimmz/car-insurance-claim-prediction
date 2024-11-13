@@ -15,26 +15,21 @@ The dataset comprises numerous predictor variables capturing key aspects of the 
 
 ### Exploratory Data Analysis (EDA)
 
-UNIVARIATE ANALYSIS:
-![image](https://github.com/user-attachments/assets/1c497575-1863-4af0-ae6f-9e599925bd5e)
-![image](https://github.com/user-attachments/assets/f298f446-66f2-4b80-8b7e-4d0794c7619d)
-![image](https://github.com/user-attachments/assets/abb49c86-3cbd-439a-a073-f2862ba239c7)
-![image](https://github.com/user-attachments/assets/174f52c1-1c4b-46be-913d-ab1a4362b5e5)
+#### UNIVARIATE ANALYSIS:
+![image](https://github.com/user-attachments/assets/1c497575-1863-4af0-ae6f-9e599925bd5e) ![image](https://github.com/user-attachments/assets/f298f446-66f2-4b80-8b7e-4d0794c7619d)
+![image](https://github.com/user-attachments/assets/abb49c86-3cbd-439a-a073-f2862ba239c7) ![image](https://github.com/user-attachments/assets/174f52c1-1c4b-46be-913d-ab1a4362b5e5)
 ![image](https://github.com/user-attachments/assets/258390f4-aabe-4b8d-9d6d-6130eead480d)
 
 
-BIVARIATE ANALYSIS:
+#### BIVARIATE ANALYSIS:
 For each predictor variable, I analyzed its correlation with the likelihood of making a claim:
 
-![image](https://github.com/user-attachments/assets/75360799-6538-4cc6-ae2c-6ac31dba5458)
-![image](https://github.com/user-attachments/assets/3b6a55fe-0932-4fef-a60d-442727f52eb8)
-![image](https://github.com/user-attachments/assets/391133b9-7095-4db7-811b-51c089187714)
-![image](https://github.com/user-attachments/assets/66b9e837-e714-453d-8a46-7a9f4bfd4dc1)
+![image](https://github.com/user-attachments/assets/75360799-6538-4cc6-ae2c-6ac31dba5458) ![image](https://github.com/user-attachments/assets/3b6a55fe-0932-4fef-a60d-442727f52eb8)
+![image](https://github.com/user-attachments/assets/391133b9-7095-4db7-811b-51c089187714) ![image](https://github.com/user-attachments/assets/66b9e837-e714-453d-8a46-7a9f4bfd4dc1)
 ![image](https://github.com/user-attachments/assets/a6469a5a-f0f3-4e2e-90dc-d83c1d1a67c7)
 
-MULTIVARIATE ANALYSIS:
+#### MULTIVARIATE ANALYSIS:
 ![image](https://github.com/user-attachments/assets/da70ddb7-9ef0-46e0-86ba-1a6bda7150c9)
-
 
 
 ### Detecting Class Imbalance:
@@ -44,30 +39,30 @@ MULTIVARIATE ANALYSIS:
 Three models were evaluated for their performance on the car insurance claim dataset: RandomForestClassifier, XGBoostClassifier, and Logistic Regression.
 And the following shows the model evaluations & performances:
 
-Model: Logistic Regression
-Accuracy: 0.5794055975932173
-Recall: 0.5970864834962198
-Precision: 0.5714285714285714
-F1 Score: 0.5839758329951757
-Cost: 437048570
+##### Model: Logistic Regression
+##### Accuracy: 0.5794055975932173
+##### Recall: 0.5970864834962198
+##### Precision: 0.5714285714285714
+##### F1 Score: 0.5839758329951757
+##### Cost: 437048570
 
 ======================
 
-Model: Random Forest
-Accuracy: 0.9279332664782569
-Recall: 0.9253180896182924
-Precision: 0.92865735171648
-F1 Score: 0.9269847134346278
-Cost: 81007710
+##### Model: Random Forest
+##### Accuracy: 0.9279332664782569
+##### Recall: 0.9253180896182924
+##### Precision: 0.92865735171648
+##### F1 Score: 0.9269847134346278
+##### Cost: 81007710
 
 ======================
 
-Model: XGBoost
-Accuracy: 0.9244689579724679
-Recall: 0.8702747556702932
-Precision: 0.9741975436061513
-F1 Score: 0.919308497686876
-Cost: 140702500
+##### Model: XGBoost
+##### Accuracy: 0.9244689579724679
+##### Recall: 0.8702747556702932
+##### Precision: 0.9741975436061513
+##### F1 Score: 0.919308497686876
+##### Cost: 140702500
 
 
 ### Model Evaluation Comparison
@@ -85,21 +80,21 @@ Cost: 140702500
 
 #### Cost
 cost = 10*FP + 100_000*FN, where:
-FP - False Positives
-FN - False Negatives
+- FP - False Positives
+- FN - False Negatives
 
 
 #### Area Under ROC:
+![image](https://github.com/user-attachments/assets/2dc98003-25ac-451b-a38e-7a8a962e77be)
 
 
 All models were assessed on various metrics, including accuracy, precision, recall, F1-score, and AUC-ROC scores, with the RandomForestClassifier emerging as the top performer.
 
 #### Feature Importances Chart:
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/76d68e34-95cb-4bb4-85d3-e2217c2b5597)
 
 
-A new & final RandomForestClassifier model was created with only the top 5 important features/predictors. This reduces model complexity and the risk of overfitting.
-
+##### A new & final RandomForestClassifier model was created with only the top 5 important features/predictors. This reduces model complexity and the risk of overfitting.
 
 
 ## Conclusion:
