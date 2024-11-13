@@ -16,7 +16,6 @@ The dataset comprises numerous predictor variables capturing key aspects of the 
 ### Exploratory Data Analysis (EDA)
 
 #### UNIVARIATE ANALYSIS:
-
 ![image](https://github.com/user-attachments/assets/f298f446-66f2-4b80-8b7e-4d0794c7619d)
 ![image](https://github.com/user-attachments/assets/abb49c86-3cbd-439a-a073-f2862ba239c7) ![image](https://github.com/user-attachments/assets/174f52c1-1c4b-46be-913d-ab1a4362b5e5)
 ![image](https://github.com/user-attachments/assets/258390f4-aabe-4b8d-9d6d-6130eead480d)
@@ -24,9 +23,12 @@ The dataset comprises numerous predictor variables capturing key aspects of the 
 
 #### BIVARIATE ANALYSIS:
 ##### For each predictor variable, I analyzed its correlation with the likelihood of making a claim:
+![image](https://github.com/user-attachments/assets/75360799-6538-4cc6-ae2c-6ac31dba5458)
 
-![image](https://github.com/user-attachments/assets/75360799-6538-4cc6-ae2c-6ac31dba5458) ![image](https://github.com/user-attachments/assets/3b6a55fe-0932-4fef-a60d-442727f52eb8)
+![image](https://github.com/user-attachments/assets/3b6a55fe-0932-4fef-a60d-442727f52eb8)
+
 ![image](https://github.com/user-attachments/assets/391133b9-7095-4db7-811b-51c089187714) ![image](https://github.com/user-attachments/assets/66b9e837-e714-453d-8a46-7a9f4bfd4dc1)
+
 ![image](https://github.com/user-attachments/assets/a6469a5a-f0f3-4e2e-90dc-d83c1d1a67c7)
 
 #### MULTIVARIATE ANALYSIS:
@@ -34,7 +36,7 @@ The dataset comprises numerous predictor variables capturing key aspects of the 
 
 
 ### Detecting Class Imbalance:
-![image](https://github.com/user-attachments/assets/86dd3320-e25d-4fed-b780-622a6396eaf5)
+![image](https://github.com/user-attachments/assets/2c4d250a-f88c-42d2-8b13-dea9cc5f01b3)
 
 ### Model Selection and Evaluation
 Three models were evaluated for their performance on the car insurance claim dataset: RandomForestClassifier, XGBoostClassifier, and Logistic Regression.
@@ -74,7 +76,7 @@ And the following shows the model evaluations & performances:
 ![image](https://github.com/user-attachments/assets/901dc390-ba92-43f6-9de3-dce23a8241c6)
 
 #### Precision:
-![image](https://github.com/user-attachments/assets/d6871b16-0373-4563-81c4-238d4cc8d622)
+![image](https://github.com/user-attachments/assets/86dd3320-e25d-4fed-b780-622a6396eaf5)
 
 #### F1 Score:
 ![image](https://github.com/user-attachments/assets/f8cc0acd-e929-4ecd-a35f-2c028afcd463)
