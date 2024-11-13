@@ -16,7 +16,7 @@ The dataset comprises numerous predictor variables capturing key aspects of the 
 ### Exploratory Data Analysis (EDA)
 
 #### UNIVARIATE ANALYSIS:
-![image](https://github.com/user-attachments/assets/1c497575-1863-4af0-ae6f-9e599925bd5e) ![image](https://github.com/user-attachments/assets/f298f446-66f2-4b80-8b7e-4d0794c7619d)
+![image](https://github.com/user-attachments/assets/f298f446-66f2-4b80-8b7e-4d0794c7619d)
 ![image](https://github.com/user-attachments/assets/abb49c86-3cbd-439a-a073-f2862ba239c7) ![image](https://github.com/user-attachments/assets/174f52c1-1c4b-46be-913d-ab1a4362b5e5)
 ![image](https://github.com/user-attachments/assets/258390f4-aabe-4b8d-9d6d-6130eead480d)
 
