@@ -15,16 +15,10 @@ The dataset comprises numerous predictor variables capturing key aspects of the 
 
 ### Exploratory Data Analysis (EDA)
 
-#### UNIVARIATE ANALYSIS:
-
 ![image](https://github.com/user-attachments/assets/f298f446-66f2-4b80-8b7e-4d0794c7619d?raw=true)
 ![image](https://github.com/user-attachments/assets/abb49c86-3cbd-439a-a073-f2862ba239c7?raw=true)
 ![image](https://github.com/user-attachments/assets/174f52c1-1c4b-46be-913d-ab1a4362b5e5)
 ![image](https://github.com/user-attachments/assets/258390f4-aabe-4b8d-9d6d-6130eead480d)
-
-
-#### BIVARIATE ANALYSIS:
-##### For each predictor variable, I analyzed its correlation with the likelihood of making a claim:
 
 ![image](https://github.com/user-attachments/assets/75360799-6538-4cc6-ae2c-6ac31dba5458?raw=true)
 ![image](https://github.com/user-attachments/assets/3b6a55fe-0932-4fef-a60d-442727f52eb8?raw=true)
@@ -32,14 +26,10 @@ The dataset comprises numerous predictor variables capturing key aspects of the 
 ![image](https://github.com/user-attachments/assets/66b9e837-e714-453d-8a46-7a9f4bfd4dc1?raw=true)
 ![image](https://github.com/user-attachments/assets/a6469a5a-f0f3-4e2e-90dc-d83c1d1a67c7?raw=true)
 
-#### MULTIVARIATE ANALYSIS:
-
 ![image](https://github.com/user-attachments/assets/da70ddb7-9ef0-46e0-86ba-1a6bda7150c9?raw=true)
 
-
-### Detecting Class Imbalance:
-
 ![image](https://github.com/user-attachments/assets/2c4d250a-f88c-42d2-8b13-dea9cc5f01b3?raw=true)
+
 
 ### Model Selection and Evaluation
 Three models were evaluated for their performance on the car insurance claim dataset: RandomForestClassifier, XGBoostClassifier, and Logistic Regression.
@@ -70,23 +60,18 @@ And the following shows the model evaluations & performances:
 ##### F1 Score: 0.919308497686876
 ##### Cost: 140702500
 
-
-### Model Evaluation Comparison
-#### Accuracy:
-
 ![image](https://github.com/user-attachments/assets/9bda809c-010c-4998-99e7-2ac8f5e68cff?raw=true)
 
-#### Recall:
 
 ![image](https://github.com/user-attachments/assets/901dc390-ba92-43f6-9de3-dce23a8241c6?raw=true)
 
-#### Precision:
 
 ![image](https://github.com/user-attachments/assets/86dd3320-e25d-4fed-b780-622a6396eaf5?raw=true)
 
-#### F1 Score:
 
 ![image](https://github.com/user-attachments/assets/f8cc0acd-e929-4ecd-a35f-2c028afcd463)
+
+![image](https://github.com/user-attachments/assets/2dc98003-25ac-451b-a38e-7a8a962e77be)
 
 #### Cost
 cost = 10*FP + 100_000*FN, where:
@@ -94,10 +79,6 @@ cost = 10*FP + 100_000*FN, where:
 - FN - False Negatives
 
 ![image](https://github.com/user-attachments/assets/77901474-31a4-4d7a-b211-c81dc72a1d0d)
-
-
-#### Area Under ROC:
-![image](https://github.com/user-attachments/assets/2dc98003-25ac-451b-a38e-7a8a962e77be)
 
 
 All models were assessed on various metrics, including accuracy, precision, recall, F1-score, and AUC-ROC scores, with the RandomForestClassifier emerging as the top performer.
