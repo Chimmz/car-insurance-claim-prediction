@@ -22,7 +22,7 @@ The dataset comprises numerous predictor variables capturing key aspects of the 
 
 
 #### BIVARIATE ANALYSIS:
-For each predictor variable, I analyzed its correlation with the likelihood of making a claim:
+##### For each predictor variable, I analyzed its correlation with the likelihood of making a claim:
 
 ![image](https://github.com/user-attachments/assets/75360799-6538-4cc6-ae2c-6ac31dba5458) ![image](https://github.com/user-attachments/assets/3b6a55fe-0932-4fef-a60d-442727f52eb8)
 ![image](https://github.com/user-attachments/assets/391133b9-7095-4db7-811b-51c089187714) ![image](https://github.com/user-attachments/assets/66b9e837-e714-453d-8a46-7a9f4bfd4dc1)
